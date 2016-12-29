@@ -1,0 +1,27 @@
+<xml version="1.0" encoding="gb2312" >
+<logpath>
+	<option>./logs/</option>
+</logpath>
+<Service>
+ <option>AdminRpcWorker:172.16.129.220:2022</option>
+ <option>CartRpcWorker:172.16.129.220:2020</option>
+ <option>ComRpcWorker:172.16.129.220:2019</option>
+<option>ItemRpcWorker:10.3.20.30:2017</option>
+<option>MachineRpcWorker:172.16.129.220:2027</option>
+<option>MarketingRpcWorker:172.16.129.220:2021</option>
+<option>OrderRpcWorker:10.3.20.30:2018</option>
+<option>PartnerRpcWorker:172.16.129.220:2023</option>
+<option>StatisticProvider:172.16.129.220:55858</option>
+<option>StatisticWeb:172.16.129.220:55757</option>
+<option>TaskRpcWorker:172.16.129.220:2026</option>
+<option>TaskStaticRpcWorker:172.16.129.220:30102</option>
+<option>TaskTimerRpcWorker:172.16.129.220:30101</option>
+<option>TestRpcWorker:172.16.129.220:12345</option>
+<option>UserRpcWorker:172.16.129.220:2016</option>
+<option>AuthRpcWorker:172.16.129.220:10101</option>
+<option>TestLockcWorker:172.16.129.76:2017</option>
+<app_access>
+<option>ff8080814d4ffb2f014d54430734007a</option>
+</app_access>
+</Service>
+</xml>
